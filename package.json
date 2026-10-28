@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "express": "^5.3.0"
-  }
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
+  },
+  "name": "asincronia-giselle",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michigiselle/Asincron-a.git"
+  },
+  "author": "\"giselle\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michigiselle/Asincron-a/issues"
+  },
+  "homepage": "https://github.com/michigiselle/Asincron-a#readme",
+  "description": "",
+  "type":"module"
 }
